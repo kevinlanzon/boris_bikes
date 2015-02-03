@@ -1,0 +1,25 @@
+Classes
+========
+
+Bikes
+	rented
+	broken
+	fixed
+	returned
+	moved
+
+
+Users
+	rent
+	return
+
+Docking_stations
+
+Rental
+
+
+Garage
+
+
+
+Van

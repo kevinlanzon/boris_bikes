@@ -4,6 +4,7 @@ class DockingStation
 	def initialize(options = {})
 		@capacity = options.fetch(:capacity, DEFAULT_CAPACITY) 
 		@bikes = []
+		
 	end
 
 	def bike_count()
@@ -19,7 +20,16 @@ class DockingStation
 	end
 
 	def full?
+	
 		bike_count == @capacity
 	end
+
+	def dock(bike)
+
+		raise "Station is full" if full?
+		@bikes << bike
+	end
+
+
 
 end

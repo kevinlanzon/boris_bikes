@@ -4,7 +4,7 @@ class DockingStation
 	def initialize(options = {})
 		@capacity = options.fetch(:capacity, DEFAULT_CAPACITY) 
 		@bikes = []
-		
+
 	end
 
 	def bike_count()
@@ -30,6 +30,8 @@ class DockingStation
 		@bikes << bike
 	end
 
-
+	def available_bikes
+		@bikes.reject { |bike| bike.broken? }
+	end
 
 end

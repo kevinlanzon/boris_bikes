@@ -3,7 +3,13 @@ Week 1 at Makers Academy.
 
 Object Oriented model of the Boris Bikes London bicycle system.
 
-Paired with Riz, we wrote this code using TDD best practices with RSpec. The goal of this project was to introduce RSpec and Object Oriented design as well as how objects can communicate to each other.
+The goal of this project is to introduce you to:
+
+- Behaviour Driven Development (BDD);
+- How BDD relates to Test Driven Development (TDD), and
+- The process of domain modeling for Object-Oriented Programming (OOP) (which is strongly related to DDD - Domain Driven Design).
+
+Paired with [Riz](https://github.com/RizAli), we wrote this code using TDD best practices with RSpec.
 
 Technologies used
 

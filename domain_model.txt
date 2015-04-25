@@ -14,12 +14,6 @@ Users
 	return
 
 Docking_stations
-
 Rental
-
-
 Garage
-
-
-
 Van

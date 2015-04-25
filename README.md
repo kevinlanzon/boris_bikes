@@ -1,4 +1,6 @@
-#Boris Bikes
+[![Code Climate](https://codeclimate.com/github/kevinlanzon/boris_bikes/badges/gpa.svg)](https://codeclimate.com/github/kevinlanzon/boris_bikes)
+Boris Bikes
+================
 Week 1 at Makers Academy.
 
 Object Oriented model of the Boris Bikes London bicycle system.
@@ -13,6 +15,5 @@ Paired with [Riz](https://github.com/RizAli), we wrote this code using TDD best 
 
 Technologies used
 
-Ruby
-
-RSpec
+- Ruby
+- RSpec

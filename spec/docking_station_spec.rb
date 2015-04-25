@@ -1,4 +1,4 @@
-# require 'docking_station'
+require './lib/docking_station'
 require './lib/bike_container'
 
 class ContainerHolder; include BikeContainer; end
@@ -14,7 +14,6 @@ describe BikeContainer do
 		expect(holder.bike_count).to eq(1)
 	end
 end
-require './lib/docking_station'
 
 describe DockingStation do
 
@@ -22,6 +21,5 @@ describe DockingStation do
 
 	it 'should allow setting default capacity on initialising' do
 		expect(station.capacity).to eq(123)
-
 	end
 end
